@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case (R.id.start):
-                title.setText("こんにちは");
+                title.setText("こんにちは劔持です");
                 break;
             case (R.id.score):
                 break;
