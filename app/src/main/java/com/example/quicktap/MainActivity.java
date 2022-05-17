@@ -11,20 +11,21 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     //プライベート変数の定義
-    private TextView title;
+    /*private TextView title;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        title = findViewById(R.id.title);
+        /*title = findViewById(R.id.title);*/
 
         ((Button)findViewById(R.id.start)).setOnClickListener(this);
         ((Button)findViewById(R.id.score)).setOnClickListener(this);
     }
 
-    @Override //onClickメソッド実装
+    //onClickメソッド実装
+    @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case (R.id.start):
