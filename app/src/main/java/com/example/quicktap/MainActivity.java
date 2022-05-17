@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    //プル確認
+    /*プル確認*/
 
     //プライベート変数の定義
     /*private TextView title;*/
