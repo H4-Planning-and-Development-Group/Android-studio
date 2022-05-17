@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /*プル確認*/
 
     //プライベート変数の定義
-    /*private TextView title;*/
+    //private TextView title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
